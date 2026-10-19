@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="312" viewBox="0 0 1000 312" fill="none">
+<style>
+  .m { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+  .s { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+</style>
+<defs>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#21262d"/></pattern>
+  <clipPath id="panel"><rect width="1000" height="312" rx="16"/></clipPath>
+  <clipPath id="typing"><rect x="84" y="18" height="26" width="0">
+    <animate attributeName="width" from="0" to="260" dur=".8s" begin=".1s" fill="freeze" calcMode="discrete"
+      values="0;9;18;27;36;45;54;63;72;81;90;99;108;117;126;134;143;152;161;170;179;188;197;206;215;224;233;242;251;260" keyTimes="0.000;0.034;0.069;0.103;0.138;0.172;0.207;0.241;0.276;0.310;0.345;0.379;0.414;0.448;0.483;0.517;0.552;0.586;0.621;0.655;0.690;0.724;0.759;0.793;0.828;0.862;0.897;0.931;0.966;1.000"/>
+  </rect></clipPath>
+  <linearGradient id="track" x1="116.0" x2="884.0" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#D29922"/><stop offset=".3" stop-color="#D29922"/><stop offset=".45" stop-color="#58A6FF"/>
+    <stop offset=".75" stop-color="#58A6FF"/><stop offset=".92" stop-color="#A371F7"/><stop offset="1" stop-color="#A371F7"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="cardglow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<g clip-path="url(#panel)">
+<rect width="1000" height="312" fill="#0d1117"/>
+<rect width="1000" height="312" fill="url(#dots)"/>
+<circle cx="30" cy="31" r="5" fill="#f85149"/><circle cx="47" cy="31" r="5" fill="#D29922"/><circle cx="64" cy="31" r="5" fill="#3FB950"/>
+<text class="m" x="84" y="36" font-size="14" clip-path="url(#typing)"><tspan fill="#3FB950">josh@apex</tspan><tspan fill="#8B949E">:~$ </tspan><tspan fill="#E6EDF3">git log --career</tspan></text>
+<rect x="331.5" y="23" width="8" height="16" fill="#58A6FF" opacity="0">
+  <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1s" begin=".9s" repeatCount="indefinite"/></rect>
+<text class="m" x="972" y="36" font-size="11.5" letter-spacing="3" fill="#6E7681" text-anchor="end">RELEASE HISTORY · 2018 → NOW</text>
+<g opacity="0"><animate attributeName="opacity" to="1" dur=".5s" begin="0.60s" fill="freeze"/>
+  <path d="M27,84 V78 H397 V84" stroke="#D29922" stroke-opacity=".45" stroke-width="1.5"/>
+  <text class="m" x="26" y="68" font-size="11" letter-spacing="2.5" fill="#D29922" font-weight="600">ON THE TOOLS</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" to="1" dur=".5s" begin="1.90s" fill="freeze"/>
+  <path d="M411,84 V78 H781 V84" stroke="#58A6FF" stroke-opacity=".45" stroke-width="1.5"/>
+  <text class="m" x="410" y="68" font-size="11" letter-spacing="2.5" fill="#58A6FF" font-weight="600">IN THE CODE</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" to="1" dur=".5s" begin="3.20s" fill="freeze"/>
+  <path d="M795,84 V78 H973 V84" stroke="#A371F7" stroke-opacity=".45" stroke-width="1.5"/>
+  <text class="m" x="794" y="68" font-size="11" letter-spacing="2.5" fill="#A371F7" font-weight="600">LEADING DELIVERY</text>
+</g>
+<path d="M116.0,266 H884.0" stroke="#21262d" stroke-width="4" stroke-linecap="round"/>
+<path d="M884.0,266 H970" stroke="#30363d" stroke-width="2" stroke-dasharray="3 6"/>
+<path d="M116.0,266 H884.0" stroke="url(#track)" stroke-width="4" stroke-linecap="round" stroke-dasharray="768.0" stroke-dashoffset="768.0">
+  <animate attributeName="stroke-dashoffset" to="0" dur="2.6s" begin="0.9s" fill="freeze"/></path>
+<rect x="-7" y="263" width="14" height="6" rx="3" fill="#E6EDF3" filter="url(#glow)" opacity="0">
+  <animateMotion path="M116.0,0 H884.0" dur="3.5s" begin="4.1s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="3.5s" begin="4.1s" repeatCount="indefinite"/></rect>
+<g opacity="0">
+  <animate attributeName="opacity" to="1" dur=".5s" begin="0.90s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur=".5s" begin="0.90s" fill="freeze"/>
+  <rect x="26.5" y="96.5" width="179" height="135" rx="10" fill="#161b22" stroke="#30363d" stroke-opacity="1"/>
+  <rect x="38" y="109" width="40" height="20" rx="10" fill="#D29922" fill-opacity=".14" stroke="#D29922" stroke-opacity=".5"/>
+  <text class="m" x="58" y="123" font-size="11" font-weight="600" fill="#D29922" text-anchor="middle">v1.0</text>
+  <circle cx="182" cy="119" r="9" fill="#3FB950" fill-opacity=".14" stroke="#3FB950" stroke-opacity=".6"/>
+  <path d="M178,119 l3,3 l5,-6" stroke="#3FB950" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="s" x="40" y="154" font-size="13.5" font-weight="700" fill="#E6EDF3">Apprentice Electrician</text>
+  <text class="s" x="40" y="173" font-size="11.5" fill="#8B949E">ENRG Electrical Services</text>
+  <path d="M40,188 H192" stroke="#21262d"/>
+  <text class="m" x="40" y="206" font-size="10.5" fill="#6E7681">JUL 2018 → FEB 2020</text>
+  <text class="m" x="40" y="222" font-size="10.5" fill="#3FB950">✓ shipped<tspan fill="#6E7681"> · 1y 8m</tspan></text>
+  <path d="M116.0,236 V254" stroke="#D29922" stroke-opacity=".5" stroke-dasharray="2 3"/>
+  <circle cx="116.0" cy="266" r="7" fill="#0d1117" stroke="#D29922" stroke-width="3"/>
+  <text class="m" x="116.0" y="296" font-size="10.5" fill="#6E7681" text-anchor="middle">2018</text>
+</g>
+<g opacity="0">
+  <animate attributeName="opacity" to="1" dur=".5s" begin="1.55s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur=".5s" begin="1.55s" fill="freeze"/>
+  <rect x="218.5" y="96.5" width="179" height="135" rx="10" fill="#161b22" stroke="#30363d" stroke-opacity="1"/>
+  <rect x="230" y="109" width="40" height="20" rx="10" fill="#D29922" fill-opacity=".14" stroke="#D29922" stroke-opacity=".5"/>
+  <text class="m" x="250" y="123" font-size="11" font-weight="600" fill="#D29922" text-anchor="middle">v2.0</text>
+  <circle cx="374" cy="119" r="9" fill="#3FB950" fill-opacity=".14" stroke="#3FB950" stroke-opacity=".6"/>
+  <path d="M370,119 l3,3 l5,-6" stroke="#3FB950" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="s" x="232" y="154" font-size="13.5" font-weight="700" fill="#E6EDF3">Electrician</text>
+  <text class="s" x="232" y="173" font-size="11.5" fill="#8B949E">Jascom Electrical</text>
+  <path d="M232,188 H384" stroke="#21262d"/>
+  <text class="m" x="232" y="206" font-size="10.5" fill="#6E7681">OCT 2020 → SEP 2022</text>
+  <text class="m" x="232" y="222" font-size="10.5" fill="#3FB950">✓ shipped<tspan fill="#6E7681"> · 2y</tspan></text>
+  <path d="M308.0,236 V254" stroke="#D29922" stroke-opacity=".5" stroke-dasharray="2 3"/>
+  <circle cx="308.0" cy="266" r="7" fill="#0d1117" stroke="#D29922" stroke-width="3"/>
+  <text class="m" x="308.0" y="296" font-size="10.5" fill="#6E7681" text-anchor="middle">2020</text>
+</g>
+<g opacity="0">
+  <animate attributeName="opacity" to="1" dur=".5s" begin="2.20s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur=".5s" begin="2.20s" fill="freeze"/>
+  <rect x="410.5" y="96.5" width="179" height="135" rx="10" fill="#161b22" stroke="#30363d" stroke-opacity="1"/>
+  <rect x="422" y="109" width="40" height="20" rx="10" fill="#58A6FF" fill-opacity=".14" stroke="#58A6FF" stroke-opacity=".5"/>
+  <text class="m" x="442" y="123" font-size="11" font-weight="600" fill="#58A6FF" text-anchor="middle">v3.0</text>
+  <circle cx="566" cy="119" r="9" fill="#3FB950" fill-opacity=".14" stroke="#3FB950" stroke-opacity=".6"/>
+  <path d="M562,119 l3,3 l5,-6" stroke="#3FB950" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="s" x="424" y="154" font-size="13.5" font-weight="700" fill="#E6EDF3">Software Developer</text>
+  <text class="s" x="424" y="173" font-size="11.5" fill="#8B949E">Harbour Rock Capital</text>
+  <path d="M424,188 H576" stroke="#21262d"/>
+  <text class="m" x="424" y="206" font-size="10.5" fill="#6E7681">OCT 2022 → JUL 2025</text>
+  <text class="m" x="424" y="222" font-size="10.5" fill="#3FB950">✓ shipped<tspan fill="#6E7681"> · 2y 10m</tspan></text>
+  <path d="M500.0,236 V254" stroke="#58A6FF" stroke-opacity=".5" stroke-dasharray="2 3"/>
+  <circle cx="500.0" cy="266" r="7" fill="#0d1117" stroke="#58A6FF" stroke-width="3"/>
+  <text class="m" x="500.0" y="296" font-size="10.5" fill="#6E7681" text-anchor="middle">2022</text>
+</g>
+<g opacity="0">
+  <animate attributeName="opacity" to="1" dur=".5s" begin="2.85s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur=".5s" begin="2.85s" fill="freeze"/>
+  <rect x="602.5" y="96.5" width="179" height="135" rx="10" fill="#161b22" stroke="#30363d" stroke-opacity="1"/>
+  <rect x="614" y="109" width="40" height="20" rx="10" fill="#58A6FF" fill-opacity=".14" stroke="#58A6FF" stroke-opacity=".5"/>
+  <text class="m" x="634" y="123" font-size="11" font-weight="600" fill="#58A6FF" text-anchor="middle">v4.0</text>
+  <circle cx="758" cy="119" r="9" fill="#3FB950" fill-opacity=".14" stroke="#3FB950" stroke-opacity=".6"/>
+  <path d="M754,119 l3,3 l5,-6" stroke="#3FB950" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="s" x="616" y="154" font-size="13.5" font-weight="700" fill="#E6EDF3">Solutions Engineer</text>
+  <text class="s" x="616" y="173" font-size="11.5" fill="#8B949E">Apex Infinity Solutions</text>
+  <path d="M616,188 H768" stroke="#21262d"/>
+  <text class="m" x="616" y="206" font-size="10.5" fill="#6E7681">JUL 2025 → SEP 2026</text>
+  <text class="m" x="616" y="222" font-size="10.5" fill="#3FB950">↑ promoted<tspan fill="#6E7681"> · 1y 3m</tspan></text>
+  <path d="M692.0,236 V254" stroke="#58A6FF" stroke-opacity=".5" stroke-dasharray="2 3"/>
+  <circle cx="692.0" cy="266" r="7" fill="#0d1117" stroke="#58A6FF" stroke-width="3"/>
+  <text class="m" x="692.0" y="296" font-size="10.5" fill="#6E7681" text-anchor="middle">2025</text>
+</g>
+<g opacity="0">
+  <animate attributeName="opacity" to="1" dur=".5s" begin="3.50s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur=".5s" begin="3.50s" fill="freeze"/>
+  <rect x="794" y="96" width="180" height="136" rx="10" fill="#A371F7" opacity=".18" filter="url(#cardglow)"/>
+  <rect x="794.5" y="96.5" width="179" height="135" rx="10" fill="#161b22" stroke="#A371F7" stroke-opacity="0.8"/>
+  <rect x="806" y="109" width="40" height="20" rx="10" fill="#A371F7" fill-opacity=".14" stroke="#A371F7" stroke-opacity=".5"/>
+  <text class="m" x="826" y="123" font-size="11" font-weight="600" fill="#A371F7" text-anchor="middle">v5.0</text>
+  <rect x="852" y="109" width="42" height="20" rx="10" fill="#A371F7"/>
+  <text class="m" x="873" y="123" font-size="10.5" font-weight="700" fill="#0d1117" text-anchor="middle">HEAD</text>
+  <circle cx="950" cy="119" r="5" fill="#A371F7"/>
+  <circle cx="950" cy="119" r="5" stroke="#A371F7" stroke-width="2"><animate attributeName="r" values="5;13" dur="1.6s" repeatCount="indefinite"/><animate attributeName="opacity" values=".9;0" dur="1.6s" repeatCount="indefinite"/></circle>
+  <text class="s" x="808" y="154" font-size="13.5" font-weight="700" fill="#E6EDF3">Delivery Manager</text>
+  <text class="s" x="808" y="173" font-size="11.5" fill="#8B949E">Apex Infinity Solutions</text>
+  <path d="M808,188 H960" stroke="#21262d"/>
+  <text class="m" x="808" y="206" font-size="10.5" fill="#6E7681">OCT 2026 → NOW</text>
+  <text class="m" x="808" y="222" font-size="10.5" fill="#A371F7">● deploying<tspan><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/>...</tspan></text>
+  <path d="M884.0,236 V254" stroke="#A371F7" stroke-opacity=".5" stroke-dasharray="2 3"/>
+  <circle cx="884.0" cy="266" r="7" fill="#0d1117" stroke="#A371F7" stroke-width="3"/>
+  <text class="m" x="884.0" y="296" font-size="10.5" fill="#6E7681" text-anchor="middle">2026</text>
+</g>
+<circle cx="884.0" cy="266" r="7" stroke="#A371F7" stroke-width="2" opacity="0">
+  <animate attributeName="r" values="7;20" dur="1.8s" begin="3.5s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values=".8;0" dur="1.8s" begin="3.5s" repeatCount="indefinite"/></circle>
+</g>
+<rect x=".5" y=".5" width="999" height="311" rx="15.5" stroke="#30363d"/>
+</svg>
