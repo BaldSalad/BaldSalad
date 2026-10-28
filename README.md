@@ -156,8 +156,8 @@ flowchart LR
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=BaldSalad&show_icons=true&theme=github_dark&hide_border=true&title_color=58A6FF&icon_color=58A6FF"/>
-  <img width="49%" src="https://streak-stats.demolab.com?user=BaldSalad&theme=github-dark-blue&hide_border=true"/>
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=BaldSalad&theme=github_dark"/>
+  <img width="60%" src="https://streak-stats.demolab.com?user=BaldSalad&theme=github-dark-blue&hide_border=true"/>
 </p>
 
 ---
