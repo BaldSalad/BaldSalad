@@ -156,8 +156,8 @@ flowchart LR
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=BaldSalad&theme=github_dark"/>
-  <img width="60%" src="https://streak-stats.demolab.com?user=BaldSalad&theme=github-dark-blue&hide_border=true"/>
+  <img width="49%" src="./assets/activity.svg"/>
+  <img width="49%" src="https://streak-stats.demolab.com?user=BaldSalad&theme=github-dark-blue&hide_border=true"/>
 </p>
 
 ---
