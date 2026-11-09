@@ -1,12 +1,22 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:58A6FF&height=180&section=header&text=Josh%20Dolby&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Delivery%20Manager%20%40%20Apex%20Infinity%20Solutions&descSize=18&descAlignY=58" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A95E9,100:ED4EA1&height=180&section=header&text=Josh%20Dolby&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Delivery%20Manager%20%40%20Apex%20Infinity%20Solutions&descSize=18&descAlignY=58" width="100%"/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Delivery+Manager+%40+Apex+Infinity+Solutions;From+wiring+diagrams+to+system+diagrams;Salesforce+%E2%80%A2+Cloud+%E2%80%A2+Integrations;On+time.+On+scope.+Intentional."/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1200&color=0A95E9&center=true&vCenter=true&width=700&lines=Delivery+Manager+%40+Apex+Infinity+Solutions;From+wiring+diagrams+to+system+diagrams;Salesforce+%E2%80%A2+Cloud+%E2%80%A2+Integrations;Proud+to+build+at+Apex+Infinity;On+time.+On+scope.+Intentional."/>
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/josh-dolby"><img src="https://img.shields.io/badge/-LinkedIn-1f2428?style=for-the-badge&logo=linkedin&logoColor=58A6FF"/></a>
-  <a href="https://apexinfinitysolutions.com"><img src="https://img.shields.io/badge/-Apex%20Infinity%20Solutions-1f2428?style=for-the-badge&logo=salesforce&logoColor=58A6FF"/></a>
+  <a href="https://apexinfinitysolutions.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/apex-infinity-logo-white.png">
+      <img src="assets/apex-infinity-mark.svg" height="72" alt="Apex Infinity Solutions">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://linkedin.com/in/josh-dolby"><img src="https://img.shields.io/badge/-LinkedIn-1f2428?style=for-the-badge&logo=linkedin&logoColor=0A95E9"/></a>
+  <a href="https://apexinfinitysolutions.com"><img src="https://img.shields.io/badge/-Apex%20Infinity%20Solutions-0A95E9?style=for-the-badge&logo=salesforce&logoColor=white"/></a>
+  <a href="https://baldsalad.github.io"><img src="https://img.shields.io/badge/-Portfolio-1f2428?style=for-the-badge&logo=githubpages&logoColor=ED4EA1"/></a>
 </p>
 
 ---
@@ -46,11 +56,6 @@ That path shapes how I work: plan it properly, build it safely, and don't sign i
 
 ## 🧭 How I Deliver
 
-```mermaid
-flowchart LR
-    A["🔍 Discover"] --> B["🗺️ Plan"] --> C["🛠️ Build"] --> D["🚀 Ship"] --> E["📈 Improve"]
-```
-
 | Stage | What it means |
 |:--|:--|
 | 🔍 **Discover** | Understand the real problem, the people, and what success looks like |
@@ -58,6 +63,17 @@ flowchart LR
 | 🛠️ **Build** | Short iterations, tight feedback loops, and no surprises |
 | 🚀 **Ship** | Controlled releases with quality built in, not bolted on |
 | 📈 **Improve** | Measure, run retros, refine, and go again |
+
+---
+
+## 💗 Why I Love What I Do
+
+Apex Infinity is where everything I've learned comes together. I get to sit between the people with the problem and the team solving it, and watch an idea on a whiteboard turn into something a customer uses every day.
+
+- 🧠 **No two weeks are the same.** New clients, new orgs, new puzzles.
+- 🛠️ **I still get hands-on.** I plan the work and I'm still in the Apex and LWC with the team.
+- 🤝 **A team that cares.** We push each other to get it right, not just get it done.
+- 🚀 **Go-live day.** Seeing a portal launch and the customer actually *use* it never gets old.
 
 ---
 
@@ -90,11 +106,25 @@ flowchart LR
 
 ---
 
+## 🧩 Things I've Built
+
+Most of my client work lives in private repositories, so here are a few examples I can describe.
+
+| Project | What it does | Built with |
+|:--|:--|:--|
+| **Case Viewer** | Experience Cloud component that shows a customer's cases alongside a live message thread | LWC, Apex, Lightning Message Service |
+| **SMS Authentication** | One-time-passcode login for a client portal, with codes sent by text through Twilio | Visualforce, Apex, Twilio API |
+| **Bulk File Download** | Paste in a list of 15- or 18-character record IDs and download every linked file in one go | LWC, Apex |
+| **Customer Portal** | Case stage tracker, in-page file preview and instant chat for a client support portal | Experience Cloud, LWC, Apex |
+| **Gantt Chart** | Project timeline view inside Salesforce | Visualforce, Chart.js |
+
+---
+
 ## 🛠 Core Stack
 
-![Salesforce](https://img.shields.io/badge/-Salesforce-1f2428?style=for-the-badge&logo=salesforce)
-![Apex](https://img.shields.io/badge/-Apex-1f2428?style=for-the-badge&logo=salesforce)
-![LWC](https://img.shields.io/badge/-LWC-1f2428?style=for-the-badge&logo=salesforce)
+![Salesforce](https://img.shields.io/badge/-Salesforce-0A95E9?style=for-the-badge&logo=salesforce&logoColor=white)
+![Apex](https://img.shields.io/badge/-Apex-0A95E9?style=for-the-badge&logo=salesforce&logoColor=white)
+![LWC](https://img.shields.io/badge/-LWC-0A95E9?style=for-the-badge&logo=salesforce&logoColor=white)
 ![MuleSoft](https://img.shields.io/badge/-MuleSoft-1f2428?style=for-the-badge)
 ![AWS](https://img.shields.io/badge/-AWS-1f2428?style=for-the-badge&logo=amazonaws)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-1f2428?style=for-the-badge&logo=typescript)
@@ -103,7 +133,6 @@ flowchart LR
 ![Node.js](https://img.shields.io/badge/-Node.js-1f2428?style=for-the-badge&logo=node.js)
 ![Python](https://img.shields.io/badge/-Python-1f2428?style=for-the-badge&logo=python)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-1f2428?style=for-the-badge&logo=postgresql)
-![C++](https://img.shields.io/badge/-C++-1f2428?style=for-the-badge&logo=cplusplus)
 
 ### 📋 Delivery Toolkit
 
@@ -114,50 +143,13 @@ flowchart LR
 ![Slack](https://img.shields.io/badge/-Slack-1f2428?style=for-the-badge&logo=slack)
 ![Figma](https://img.shields.io/badge/-Figma-1f2428?style=for-the-badge&logo=figma)
 
-<details>
-<summary><b>🧰 Full technical stack</b></summary>
-<br/>
-
-**Languages & Databases**
-
-![Java](https://img.shields.io/badge/-Java-1f2428?style=for-the-badge&logo=openjdk)
-![HTML5](https://img.shields.io/badge/-HTML5-1f2428?style=for-the-badge&logo=html5)
-![CSS3](https://img.shields.io/badge/-CSS3-1f2428?style=for-the-badge&logo=css3)
-![SQL](https://img.shields.io/badge/-SQL-1f2428?style=for-the-badge&logo=mysql)
-![SOQL](https://img.shields.io/badge/-SOQL-1f2428?style=for-the-badge&logo=salesforce)
-![GraphQL](https://img.shields.io/badge/-GraphQL-1f2428?style=for-the-badge&logo=graphql)
-![MongoDB](https://img.shields.io/badge/-MongoDB-1f2428?style=for-the-badge&logo=mongodb)
-![Redis](https://img.shields.io/badge/-Redis-1f2428?style=for-the-badge&logo=redis)
-![Firebase](https://img.shields.io/badge/-Firebase-1f2428?style=for-the-badge&logo=firebase)
-![SQLite](https://img.shields.io/badge/-SQLite-1f2428?style=for-the-badge&logo=sqlite)
-
-**Frameworks & Platforms**
-
-![Express](https://img.shields.io/badge/-Express-1f2428?style=for-the-badge)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap-1f2428?style=for-the-badge&logo=bootstrap)
-![AWS Lambda](https://img.shields.io/badge/-AWS%20Lambda-1f2428?style=for-the-badge&logo=awslambda)
-![HubSpot](https://img.shields.io/badge/-HubSpot-1f2428?style=for-the-badge&logo=hubspot)
-![Heroku](https://img.shields.io/badge/-Heroku-1f2428?style=for-the-badge&logo=heroku)
-
-**Dev Tools**
-
-![Git](https://img.shields.io/badge/-Git-1f2428?style=for-the-badge&logo=git)
-![VS Code](https://img.shields.io/badge/-VS%20Code-1f2428?style=for-the-badge&logo=visualstudiocode)
-![Cursor](https://img.shields.io/badge/-Cursor-1f2428?style=for-the-badge)
-![Salesforce CLI](https://img.shields.io/badge/-Salesforce%20CLI-1f2428?style=for-the-badge&logo=salesforce)
-![SFDX](https://img.shields.io/badge/-SFDX-1f2428?style=for-the-badge&logo=salesforce)
-![Postman](https://img.shields.io/badge/-Postman-1f2428?style=for-the-badge&logo=postman)
-![Unreal Engine](https://img.shields.io/badge/-Unreal%20Engine-1f2428?style=for-the-badge)
-
-</details>
-
 ---
 
 ## 📊 GitHub Activity
 
 <p align="center">
   <img width="49%" src="./assets/activity.svg"/>
-  <img width="49%" src="https://streak-stats.demolab.com?user=BaldSalad&theme=github-dark-blue&hide_border=true"/>
+  <img width="49%" src="https://streak-stats.demolab.com?user=BaldSalad&theme=github-dark-blue&hide_border=true&ring=0A95E9&fire=ED4EA1&currStreakLabel=0A95E9&sideLabels=ED4EA1"/>
 </p>
 
 ---
@@ -174,4 +166,4 @@ flowchart LR
   <i>"Good systems are invisible. Great systems are intentional."</i>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:58A6FF&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ED4EA1,100:0A95E9&height=120&section=footer" width="100%"/>

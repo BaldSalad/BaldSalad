@@ -9,7 +9,7 @@ OUT = sys.argv[1]
 USER = "BaldSalad"
 
 W, H = 495, 195
-BG, BLUE, DEEP, TEXT, MUTED, LINE = "#0D1117", "#58A6FF", "#1F6FEB", "#FEFEFE", "#9E9E9E", "#E4E2E2"
+BG, BLUE, DEEP, TEXT, MUTED, LINE = "#0D1117", "#0A95E9", "#ED4EA1", "#FEFEFE", "#9E9E9E", "#E4E2E2"
 FONT = '"Segoe UI", Ubuntu, sans-serif'
 
 # Weekly bar chart area (right of the divider).
