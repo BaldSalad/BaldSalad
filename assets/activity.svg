@@ -10,7 +10,7 @@
 <g clip-path="url(#outer)">
 <rect x=".5" y=".5" width="494" height="194" rx="4.5" fill="#0D1117"/>
 <line x1="165" y1="28" x2="165" y2="170" stroke="#E4E2E2" stroke-width="1"/>
-<text class="f" style="animation-delay:.6s" x="82.5" y="80" text-anchor="middle" fill="#0A95E9" font-weight="700" font-size="28px">3,558</text>
+<text class="f" style="animation-delay:.6s" x="82.5" y="80" text-anchor="middle" fill="#0A95E9" font-weight="700" font-size="28px">3,551</text>
 <text class="f" style="animation-delay:.7s" x="82.5" y="116" text-anchor="middle" fill="#FEFEFE" font-size="14px">Contributions</text>
 <text class="f" style="animation-delay:.8s" x="82.5" y="146" text-anchor="middle" fill="#9E9E9E" font-size="12px">Nov 2025 - Nov 2026</text>
 <text class="f" style="animation-delay:.6s" x="186" y="34" fill="#FEFEFE" font-size="14px">Weekly activity</text>
