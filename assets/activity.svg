@@ -10,7 +10,7 @@
 <g clip-path="url(#outer)">
 <rect x=".5" y=".5" width="494" height="194" rx="4.5" fill="#0D1117"/>
 <line x1="165" y1="28" x2="165" y2="170" stroke="#E4E2E2" stroke-width="1"/>
-<text class="f" style="animation-delay:.6s" x="82.5" y="80" text-anchor="middle" fill="#0A95E9" font-weight="700" font-size="28px">3,580</text>
+<text class="f" style="animation-delay:.6s" x="82.5" y="80" text-anchor="middle" fill="#0A95E9" font-weight="700" font-size="28px">3,705</text>
 <text class="f" style="animation-delay:.7s" x="82.5" y="116" text-anchor="middle" fill="#FEFEFE" font-size="14px">Contributions</text>
 <text class="f" style="animation-delay:.8s" x="82.5" y="146" text-anchor="middle" fill="#9E9E9E" font-size="12px">Nov 2025 - Nov 2026</text>
 <text class="f" style="animation-delay:.6s" x="186" y="34" fill="#FEFEFE" font-size="14px">Weekly activity</text>
@@ -68,7 +68,7 @@
 <rect class="b" style="animation-delay:1.188s" x="453.08" y="74.40" width="3.80" height="73.60" rx="1" fill="#0A95E9" fill-opacity="0.84"/>
 <rect class="b" style="animation-delay:1.200s" x="458.51" y="66.27" width="3.80" height="81.73" rx="1" fill="#0A95E9" fill-opacity="0.89"/>
 <rect class="b" style="animation-delay:1.212s" x="463.95" y="109.37" width="3.80" height="38.63" rx="1" fill="#0A95E9" fill-opacity="0.61"/>
-<rect class="b" style="animation-delay:1.224s" x="469.38" y="136.21" width="3.80" height="11.79" rx="1" fill="#0A95E9" fill-opacity="0.43"/>
+<rect class="b" style="animation-delay:1.224s" x="469.38" y="85.38" width="3.80" height="62.62" rx="1" fill="#0A95E9" fill-opacity="0.77"/>
 <text class="f" style="animation-delay:.9s" x="221.3" y="168" text-anchor="middle" fill="#9E9E9E" font-size="11px">Jan</text>
 <text class="f" style="animation-delay:.9s" x="264.8" y="168" text-anchor="middle" fill="#9E9E9E" font-size="11px">Mar</text>
 <text class="f" style="animation-delay:.9s" x="313.7" y="168" text-anchor="middle" fill="#9E9E9E" font-size="11px">May</text>
